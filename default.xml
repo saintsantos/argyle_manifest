@@ -14,7 +14,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <!-- Custom vendor files for argyle -->
-  <project path="vendor/argyle" name="argyle_vendor" remote="argyle" />
+  <project path="vendor/argyle" name="argyle_vendor" remote="argyle" revision="master" />
 
   <!-- AOSP repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
