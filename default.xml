@@ -17,6 +17,8 @@
   </project>
   <!-- Custom vendor files for argyle -->
   <project path="vendor/argyle" name="argyle_vendor" remote="argyle" />
+
+  <!-- AOSP repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
