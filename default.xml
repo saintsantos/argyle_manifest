@@ -8,8 +8,7 @@
            sync-j="4" />
 
   <remote  name="argyle"
-           fetch="https://github.com/saintsantos/"
-           remote="argyle" />
+           fetch="https://github.com/saintsantos/" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
