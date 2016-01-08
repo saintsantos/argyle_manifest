@@ -7,9 +7,16 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote  name="argyle"
+           fetch="https://github.com/saintsantos/" />
+  <default remote ="argyle"
+           sync-j="4" />
+
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <!-- Custom vendor files for argyle -->
+  <project path="vendor/argyle" name="argyle_vendor" remote="argyle" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
