@@ -2,15 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com/platform/" />
   <default revision="refs/tags/android-5.1.1_r14"
            remote="aosp"
            sync-j="4" />
 
   <remote  name="argyle"
            fetch="https://github.com/saintsantos/" />
-  <default remote ="argyle"
-           sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
