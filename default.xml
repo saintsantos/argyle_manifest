@@ -8,13 +8,14 @@
            sync-j="4" />
 
   <remote  name="argyle"
-           fetch="https://github.com/saintsantos/" />
+           fetch="https://github.com/saintsantos/"
+           remote="argyle" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <!-- Custom vendor files for argyle
-  <project path="vendor/argyle" name="argyle_vendor" remote="argyle" revision="master" /> -->
+  <!-- Custom vendor files for argyle -->
+  <project path="vendor/argyle" name="argyle_vendor" remote="argyle" revision="master" />
 
   <!-- AOSP repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
