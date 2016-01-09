@@ -15,6 +15,9 @@
   </project>
   <!-- Custom vendor files for argyle -->
   <project path="vendor/argyle" name="argyle_vendor" remote="argyle" revision="master" />
+  <project path="vendor/broadcom" name="vendor_broadcom_flo" remote="argyle" revision="master" />
+  <project path="vendor/qcom" name="vendor_qcom_flo" remote="argyle" revision="master" />
+  <project path="vendor/asus" name="vendor_asus_flo" remote="argyle" revision="master" />
 
   <!-- AOSP repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
