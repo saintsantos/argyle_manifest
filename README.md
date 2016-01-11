@@ -1,7 +1,7 @@
 # argyle_manifest
 Manifest to build argyle platform
 
-In order to build this source you need:
+### In order to build this source you need:
 Some form of linux distro (Ubuntu is the general recommendation, but other distros will work as well).
 to read the build documentation here:
 https://source.android.com/source/initializing.html
