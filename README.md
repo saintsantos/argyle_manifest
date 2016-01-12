@@ -1,4 +1,4 @@
-# argyle_manifest
+# argyle_manifest source
 Manifest to build argyle platform
 
 ### In order to build this source you need:
