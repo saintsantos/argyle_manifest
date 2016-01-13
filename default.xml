@@ -19,6 +19,10 @@
   <project path="vendor/qcom" name="vendor_qcom_flo" remote="argyle" revision="master" />
   <project path="vendor/asus" name="vendor_asus_flo" remote="argyle" revision="master" />
 
+  <!-- Projects with modifications -->
+  <project path="frameworks/base" name="argyle_frameworks_base" remote="argyle" revision="master" />
+
+
   <!-- AOSP repositories -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
@@ -261,7 +265,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
